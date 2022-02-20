@@ -1,7 +1,0 @@
-baseURL = 'https://kirinthos.github.io'
-languageCode = 'en-us'
-title = 'Cross Compiled'
-theme = "PaperMod"
-
-[params]
-disableThemeToggle = true
