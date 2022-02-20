@@ -3,7 +3,7 @@ title: "Creating the Site"
 summary: "What it took for me to finally get this blog thing off of the ground"
 date: 2022-02-19T22:34:33-05:00
 tags: [blog, hugo]
-draft: true
+draft: false
 ---
 
 I have finally done it. I've started a blog! I've been telling myself for years that I'd finally get to writing
@@ -128,6 +128,18 @@ Let's do it. We've got...at least kind of a blog post here, some minimal content
 a blog name, even a domain name!
 
 Can we turn this into a real website? [information](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
+We end up copying the github action into this folder `.github/workflows/gh-pages.yml`. Pushing all of this,
+including a draft of this post, up onto the `master` branch. This triggers the GitHub Action! Automatically,
+it seems we now have a `gh-pages` branch, verified by fetching from the repo.
+
+```bash
+ * [new branch]      gh-pages   -> origin/gh-pages
+```
+
+Well, I go into the settings of my repository and set the `Pages` settings to point at this new branch created
+by the GitHub Action. Wait a couple of minutes and it looks like we're online! Let's see if I can get my domain
+configured.
 
 I'm going to give this an attempt, if you can see this on https://crosscompiled.com I guess we've made it!
 
