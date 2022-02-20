@@ -1,0 +1,7 @@
+baseURL = 'https://crosscompiled.com'
+languageCode = 'en-us'
+title = 'Cross Compiled'
+theme = "PaperMod"
+
+[params]
+disableThemeToggle = true
