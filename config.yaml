@@ -1,6 +1,7 @@
-baseURL: 'https://kirinthos.github.io'
+baseURL: 'https://crosscompiled.com'
 languageCode: 'en-us'
 title: 'Cross Compiled'
+description: 'Writings about technical topics'
 theme: "PaperMod"
 
 params:
